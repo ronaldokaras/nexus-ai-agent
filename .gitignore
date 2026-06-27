@@ -1,0 +1,78 @@
+# ==============================================
+# Nexus AI Agent - .gitignore
+# Política de Versionamento e Segurança
+# ==============================================
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+env.bak/
+pythonenv/
+
+# Configurações do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.temp
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------------------------------
+# SEGURANÇA: Nunca versionar credenciais e chaves
+# -------------------------------------------------
+.env
+config.json
+credentials.json
+secrets.json
+*.key
+*.pem
+
+# Arquivos de mídia gerados/baixados pelo TTS
+*.mp4
+*.mp3
+*.mkv
+*.webm
+*.avi
+*.mov
+*.flac
+*.aac
+*.opus
+
+# Diretórios de build e distribuição
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Dados de persistência local (memória de usuário, SQLite)
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Testes e cobertura
+# tests/
+*.coverage
+htmlcov/
+
+# Outros arquivos não versionáveis
+*.swp
+*.swo
+*.swn
+*~
