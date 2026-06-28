@@ -1,0 +1,42 @@
+# ==============================================
+# Nexus Agent - Dependências Futuras / Extras
+# ==============================================
+# versões futuras do projeto (APIs, GUIs, etc.)
+# Não são necessárias para a versão atual.
+# ==============================================
+
+# ---------- APIs de LLM ----------
+# Para quando você quiser trocar facilmente de provedor
+openai>=1.0.0          # OpenAI (GPT-4, etc.)
+groq>=1.0.0            # Groq (LPU)
+google-genai>=2.0.0    # Google Generative AI (Gemini)
+
+# ---------- Web Framework (API REST) ----------
+flask>=3.0.0
+# ou
+# django>=4.2
+
+# ---------- Automação de Desktop ----------
+pyautogui>=0.9.5      # Leitura de tela, controle de mouse/teclado
+pynput>=1.7.6          # Alternativa para automação de input
+
+# ---------- Interface Gráfica  ----------
+# customtkinter>=5.2.0   # Interface desktop moderna
+# ctk-markdown>=0.1.4
+
+# ---------- Banco de Dados Avançado ----------
+sqlalchemy>=2.0        # ORM (se quiser migrar do SQLite puro)
+alembic>=1.13.0        # Migrações de banco de dados
+
+# ---------- Testes Avançados ----------
+pytest-cov>=5.0.0      # Cobertura de código
+pytest-mock>=3.14.0    # Mocks
+
+# ---------- Qualidade de Código ----------
+black>=24.0.0          # Formatação automática
+flake8>=7.0.0          # Linter
+mypy>=1.11.0           # Type checking
+
+# ---------- Deploy / DevOps ----------
+gunicorn>=22.0.0       # WSGI server
+docker>=7.0.0          # Docker SDK 
