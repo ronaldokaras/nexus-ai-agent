@@ -16,7 +16,7 @@ from config.settings import TEMPERATURE, MAX_HISTORY, MODEL_ID
 from prompts.system_prompt import SYSTEM_PROMPT
 from core.memory import NexusMemory
 from core.utils import limpar_dados
-from core.file_writer import file_writer
+from core.writer import file_writer
 from core.security import SecurityManager
 from core.sentiment import SentimentAnalyzer
 from core.command_extractor import CommandExtractor, CommandResult
